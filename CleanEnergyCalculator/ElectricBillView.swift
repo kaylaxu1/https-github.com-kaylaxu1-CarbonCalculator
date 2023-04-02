@@ -34,7 +34,6 @@ struct ElectricBill: View {
                     .aspectRatio(contentMode: .fit)
                     .scaleEffect(0.8, anchor: .center)
                     .offset(x: 0, y: -200)
-                    //.clipped()
                 }
                 VStack{
                     HStack {
@@ -43,7 +42,7 @@ struct ElectricBill: View {
                             .clipped()
                             .padding(10)
                             .font(.title)
-                            TextField("Amount:", text: $gas)
+                            TextField("Amount", text: $gas)
                             .font(.title)
                             .foregroundColor(.secondary)
                             .clipped()

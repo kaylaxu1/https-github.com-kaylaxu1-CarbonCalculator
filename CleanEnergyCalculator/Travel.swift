@@ -33,7 +33,7 @@ struct Travel: View {
             }
             VStack {
                 HStack {
-                    Text("Total Yearly Car Milage:")
+                    Text("Total Yearly Car Mileage:")
                         .clipped()
                         .padding(10)
                         .font(.body)
@@ -45,7 +45,7 @@ struct Travel: View {
                 }
                 .offset(x: 0, y: 132)
                 HStack {
-                    Text("Number of flights four hours or less:")
+                    Text("Number of flights, four hours or less:")
                         .clipped()
                         .padding(10)
                         .font(.body)
@@ -57,7 +57,7 @@ struct Travel: View {
                 }
                 .offset(x: 0, y: 140)
                 HStack {
-                    Text("Number of flights four hours or more:")
+                    Text("Number of flights, four hours or more:")
                         .clipped()
                         .padding(10)
                         .font(.body)

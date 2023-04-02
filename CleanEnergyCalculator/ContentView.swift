@@ -24,9 +24,10 @@ struct ContentView: View {
                     .resizable()
                     .aspectRatio(contentMode: .fill)
                 Text("Discover Your Carbon Footprint")
-                    .underline()
+                    .fontWeight(.bold)
                     .multilineTextAlignment(.leading)
                     .offset(x: 0, y: -371)
+                    .frame(width: 400)
                     .foregroundColor(.blue)
                     .font(.title)
                     
